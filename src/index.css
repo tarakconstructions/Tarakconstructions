@@ -171,3 +171,14 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}

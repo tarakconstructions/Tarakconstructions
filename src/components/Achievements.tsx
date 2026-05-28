@@ -3,8 +3,8 @@ import { Building2, Users, Award, Wrench } from 'lucide-react';
 import { useCounter } from '../hooks/useCounter';
 
 const stats = [
-  { icon: Building2, value: 500, suffix: '+', label: 'Projects Completed', color: 'text-orange-500' },
-  { icon: Users, value: 500, suffix: '+', label: 'Happy Clients', color: 'text-orange-500' },
+  { icon: Building2, value: 100, suffix: '+', label: 'Projects Completed', color: 'text-orange-500' },
+  { icon: Users, value: 100, suffix: '+', label: 'Happy Clients', color: 'text-orange-500' },,
   { icon: Award, value: 12, suffix: '+', label: 'Years Experience', color: 'text-orange-500' },
   { icon: Wrench, value: 150, suffix: '+', label: 'Skilled Workers', color: 'text-orange-500' },
 ];

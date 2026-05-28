@@ -1,9 +1,10 @@
 import {
-  HardHat,
   Phone,
   Mail,
   MapPin,
 } from "lucide-react";
+
+import logo from "../assets/logo.png";
 
 import {
   FaFacebookF,
@@ -32,9 +33,18 @@ const serviceLinks = [
 
 const socialLinks = [
   { Icon: FaFacebookF, href: "#" },
-  { Icon: FaInstagram, href: "#" },
-  { Icon: FaYoutube, href: "#" },
-  { Icon: FaTwitter, href: "#" },
+  {
+    Icon: FaInstagram,
+    href: "https://www.instagram.com/tarakconstructionstelugu?igsh=N2Y2YnZjbTUwZnVz",
+  },
+  {
+    Icon: FaYoutube,
+    href: "https://youtube.com/@tarakconstructionstelugu?si=SeW9_-dSuNMfVYxL",
+  },
+  {
+    Icon: FaTwitter,
+    href: "https://x.com/BTRAOBUILDS",
+  },
 ];
 
 export default function Footer() {
@@ -106,24 +116,12 @@ export default function Footer() {
 
           {/* BRAND */}
           <div>
-            <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 bg-orange-500 rounded-xl flex items-center justify-center">
-                <HardHat className="w-5 h-5 text-white" />
-              </div>
-
-              <div>
-                <h3
-                  className="text-lg font-bold text-white leading-none"
-                  style={{ fontFamily: "Poppins, sans-serif" }}
-                >
-                  Tarak
-                  <span className="text-orange-500">Constructions</span>
-                </h3>
-
-                <p className="text-xs text-gray-500">
-                  Visakhapatnam
-                </p>
-              </div>
+            <div className="flex items-center mb-5">
+              <img
+                src={logo}
+                alt="Company Logo"
+                className="h-16 w-auto object-contain"
+              />
             </div>
 
             <p
@@ -139,6 +137,8 @@ export default function Footer() {
                 <a
                   key={index}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-9 h-9 bg-gray-800 hover:bg-orange-500 rounded-lg flex items-center justify-center transition-all duration-300 text-gray-400 hover:text-white"
                 >
                   <Icon className="w-4 h-4" />
@@ -236,15 +236,16 @@ export default function Footer() {
                 <Mail className="w-4 h-4 text-orange-500 flex-shrink-0" />
 
                 <a
-                  href="mailto:info@tarakconstructions.com"
+                  href="mailto:tarakconstructions5@gmail.com"
                   className="text-sm hover:text-orange-400 transition-colors"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
-                  info@tarakconstructions.com
+                  tarakconstructions5@gmail.com
                 </a>
               </div>
             </div>
           </div>
+
         </div>
       </div>
 
@@ -252,14 +253,14 @@ export default function Footer() {
       <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-3">
           <p
-            className="text-xs text-gray-600"
+            className="text-xs text-gray-600 text-center sm:text-left"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
             © {new Date().getFullYear()} TarakConstructions. All rights reserved.
           </p>
 
           <p
-            className="text-xs text-gray-600"
+            className="text-xs text-gray-600 text-center sm:text-right"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
             Built with pride in{" "}

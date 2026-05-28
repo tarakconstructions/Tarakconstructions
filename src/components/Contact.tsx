@@ -15,7 +15,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: 'Email',
-    lines: ['info@tarakonstructions.com', 'tarak@tarakonstructions.com'],
+    lines: ['tarakconstructions5@gmail.com', 'tarakconstructions5@gmail.com'],
   },
   {
     icon: Clock,

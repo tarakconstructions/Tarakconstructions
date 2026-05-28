@@ -57,7 +57,7 @@ export default function Founder() {
                 {/* Overlay badge */}
                 <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900/80 to-transparent p-6">
                   <h3 className="text-white font-bold text-xl" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                     Bagari Tarak
+                     Bagadi Tarak
                   </h3>
                   <p className="text-white text-sm font-medium">Founder & Managing Director</p>
                    <div className="text-white text-sm font-medium ">Department of Archaeology</div>
@@ -86,14 +86,14 @@ export default function Founder() {
                 12+ Years of Excellence
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-orange-400 mb-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                Bagari Tarak
+                Bagadi Tarak
               </h3>
               <p className="text-orange-500 font-semibold text-base">Founder & Managing Director, Tarak Constructions</p>
               
             </div>
 
             <p className="reveal text-gray-600 leading-relaxed" style={{ fontFamily: 'Inter, sans-serif' }}>
-              With over 12 years of experience in civil construction, Bagari Tarak founded
+              With over 12 years of experience in civil construction, Bagadi Tarak founded
               Tarak Constructions with a simple vision — to build premium, affordable, and durable
               homes for the families of Visakhapatnam. His hands-on approach, deep technical
               knowledge, and commitment to client satisfaction have made TarakConstructions
@@ -107,7 +107,7 @@ export default function Founder() {
                 We take that responsibility very seriously — no shortcuts, only quality."
               </p>
               <p className="text-orange-500 font-semibold text-sm mt-3" style={{ fontFamily: 'Poppins, sans-serif' }}>
-                — Bagari Tarak
+                — Bagadi Tarak
               </p>
             </div>
 
